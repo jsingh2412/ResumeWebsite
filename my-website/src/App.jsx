@@ -1,10 +1,12 @@
-import './App.css';
+import './index.css';
 import ContactMe from './components/contactme';
 import Header from './components/header';
 function App() {
   return (
-    Header,
-    ContactMe
+    <div>
+      <Header />
+      <ContactMe />
+    </div>
   );
 }
 

@@ -1,9 +1,13 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Apply global styles */
 body {
-  @apply font-sans bg-gray-300 text-blue-900; /* Roboto, Light Gray, Dark Blue */
+  @apply font-sans bg-off-white text-5xl text-black; /* Roboto, Light Gray, Dark Blue */
   line-height: 1.6;
+}
+h1{
+  @apply font-heading bg-off-white text-11xl text-black;
+  line-height: 1.3;
 }
