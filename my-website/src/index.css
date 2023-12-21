@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Apply global styles */
+/* globals */
 body {
-  @apply font-sans bg-off-white text-5xl text-black; /* Roboto, Light Gray, Dark Blue */
+  @apply font-sans bg-off-white text-5xl text-black;
   line-height: 1.6;
 }
 h1{

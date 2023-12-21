@@ -15,7 +15,7 @@ module.exports = {
         "11xl": "5rem",
       },
       colors: {
-        "black" : "#0A090C",
+        "night" : "#0A090C",
         "off-white" : "#F0EDEE",
         "midnight-green" : "#07393C",
         "caribbean-green" : "#2C666E",
