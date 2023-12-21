@@ -1,9 +1,11 @@
+import React from "react";
+import SocialMediaCard from "./socialmediacard";
 function ContactMe() {
-    return (
-      <div>
-  
-      </div>
-    );
-  }
+  return (
+    <div>
+      <SocialMediaCard/>
+    </div>
+  );
+}
   
 export default ContactMe;
