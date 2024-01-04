@@ -29,7 +29,7 @@ function SocialMediaCard() {
 function Square({link, source, desc}){
   return (
     <div className="bg-off-white border-spacing-1 h-12 w-12 cursor-pointer shadow-2xl p-2xl transition-shadow rounded-md">
-      <a href={link} className="w-full h-full block">
+      <a href={link} target="_blank" rel="noopener noreferrer" className="w-full h-full block">
         <img className="w-full h-full object-cover" src={source} alt={desc} />
       </a>
     </div>
