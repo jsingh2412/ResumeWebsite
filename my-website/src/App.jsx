@@ -1,25 +1,24 @@
-import './index.css';
-import Header from './components/header/header';
-import Footer from './components/footer';
-import React from 'react';
-import { Route, RouterProvider, Routes } from 'react-router-dom';
-import Home from './components/home';
+import "./index.css";
+import Header from "./components/header/header";
+import Footer from "./components/footer";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/home";
+import AboutMe from "./components/aboutme";
 
 function App() {
   return (
     <>
-      <RouterProvider>
       {/* This will be our nav bar */}
       <Header />
       {/* Content Here */}
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/about" element={<Home />}/>
-        <Route path='/contact' element={<></>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/contact" element={<></>} />
       </Routes>
       {/*  */}
       <Footer />
-      </RouterProvider>
     </>
   );
 }

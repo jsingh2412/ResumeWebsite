@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./navbar";
+import NavBar from "./navbar/navbar";
 function Header() {
   return (
     <div>
@@ -7,5 +7,5 @@ function Header() {
     </div>
   );
 }
-  
+
 export default Header;
