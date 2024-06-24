@@ -1,14 +1,14 @@
 import React from "react";
-import SocialMediaCard from "./socialmediacard";
+import SocialMediaCards from "./socialmediacards";
 import ContactMe from "./contactme";
 
 function Footer() {
   return (
     <div className="bg-night">
-        <ContactMe />
-        <SocialMediaCard />
+      <ContactMe />
+      <SocialMediaCards />
     </div>
   );
 }
-  
+
 export default Footer;
